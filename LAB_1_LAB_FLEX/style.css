@@ -16,7 +16,7 @@ body {
 }
 
 .center-content {
-  display: flex;
+  display:flex;
   align-items: center;
   justify-content: center;
 }
@@ -29,8 +29,13 @@ body {
 img{
     width: 200px;
     height: 200px;
+    border-style: dashed;
+    border-color:red;
+
 }
 
 .features{
-
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
